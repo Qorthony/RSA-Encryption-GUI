@@ -57,7 +57,7 @@ class App:
         self.taCipherText.grid(row=5, column=3, sticky=W)
     
     def showKelompok(self):
-        messagebox.showinfo("Kelompok Asymmetric SI 6D", "1. Ahmad Qorthoni Nur Ardhi\n\t(11180930000095)\n2. Rizkie Perdana putra\n\t(11180930000095)\n3. Nur Ahmad Akbar Maulana\n\t(11180930000095)")
+        messagebox.showinfo("Kelompok Asymmetric SI 6D", "1. Ahmad Qorthoni Nur Ardhi\n\t(11180930000095)\n2. Rizkie Perdana putra\n\t(11180930000119)\n3. Nur Ahmad Akbar Maulana\n\t(11180930000120)")
 
     def generateKey(self):
         self.taPublicKey.delete(1.0, END)
